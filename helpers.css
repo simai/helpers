@@ -1,6 +1,6 @@
 /*****************************/
 /* Modificator Classes       */
-/* Version 1.0               */
+/* Version 1.01              */
 /* Author name : Rim Zabarov */
 /* Company: SIMAI            */
 /* Website: http://simai.ru  */
@@ -211,6 +211,39 @@
 
 .no-wrap      { white-space :    nowrap;    }
 
+.lh-10  { line-height : 10px;  }
+.lh-15  { line-height : 15px;  }
+.lh-20  { line-height : 20px;  }
+.lh-25  { line-height : 25px;  }
+.lh-30  { line-height : 30px;  }
+.lh-35  { line-height : 35px;  }
+.lh-40  { line-height : 40px;  }
+.lh-45  { line-height : 45px;  }
+.lh-50  { line-height : 50px;  }
+.lh-55  { line-height : 55px;  }
+.lh-60  { line-height : 60px;  }
+.lh-65  { line-height : 65px;  }
+.lh-70  { line-height : 70px;  }
+.lh-75  { line-height : 75px;  }
+.lh-80  { line-height : 80px;  }
+.lh-85  { line-height : 85px;  }
+.lh-90  { line-height : 90px;  }
+.lh-95  { line-height : 95px;  }
+.lh-100 { line-height : 100px; }
+
+.lh-90e  { line-height : 0.9em; }
+.lh-100e { line-height : 1em;   }
+.lh-110e { line-height : 1.1em; }
+.lh-120e { line-height : 1.2em; }
+.lh-130e { line-height : 1.3em; }
+.lh-140e { line-height : 1.4em; }
+.lh-150e { line-height : 1.5em; }
+.lh-160e { line-height : 1.6em; }
+.lh-170e { line-height : 1.7em; }
+.lh-180e { line-height : 1.8em; }
+.lh-190e { line-height : 1.9em; }
+.lh-200e { line-height : 2em;   }
+
 
 /* FONT */
 
@@ -232,7 +265,7 @@
 .f-38  { font-size : 38px; }
 .f-40  { font-size : 40px; }
 
-.small, 
+.small,
 .text-small,
 .f-75p    { font-size : 75%;  }
 .f-90p    { font-size : 90%;  }
@@ -296,13 +329,15 @@
 /* SHADOW */
 
 .shadow-none,
-.shadow-0    { box-shadow         : none !important; }
-.shadow-1    { -webkit-box-shadow : 0 1px 4px 0 rgba(0,0,0,0.37);box-shadow:0 1px 4px 0 rgba(0,0,0,0.37); }
-.shadow-2    { -webkit-box-shadow : 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);box-shadow:0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3); }
-.shadow-3    { -webkit-box-shadow : 0 11px 7px 0 rgba(0,0,0,0.19),0 13px 25px 0 rgba(0,0,0,0.3);box-shadow:0 11px 7px 0 rgba(0,0,0,0.19),0 13px 25px 0 rgba(0,0,0,0.3); }
-.shadow-4    { -webkit-box-shadow : 0 14px 12px 0 rgba(0,0,0,0.17),0 20px 40px 0 rgba(0,0,0,0.3);box-shadow:0 14px 12px 0 rgba(0,0,0,0.17),0 20px 40px 0 rgba(0,0,0,0.3); }
-.shadow-5    { -webkit-box-shadow : 0 17px 17px 0 rgba(0,0,0,0.15),0 27px 55px 0 rgba(0,0,0,0.3);box-shadow:0 17px 17px 0 rgba(0,0,0,0.15),0 27px 55px 0 rgba(0,0,0,0.3); }
+.shadow-0    { box-shadow : none; }
+.shadow-1    { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);     }
+.shadow-2    { box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);     }
+.shadow-3    { box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);   }
+.shadow-4    { box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); }
+.shadow-5    { box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); }
 
+.hover-shadow { transition: all 0.2s ease-in-out; transform: translateY(0); }
+.hover-shadow:hover {box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); transform: translateY(-3px);}
 
 /* OVERFLOW */
 
