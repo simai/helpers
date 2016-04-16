@@ -232,6 +232,8 @@
 .f-38  { font-size : 38px; }
 .f-40  { font-size : 40px; }
 
+.small, 
+.text-small,
 .f-75p    { font-size : 75%;  }
 .f-90p    { font-size : 90%;  }
 .f-100p   { font-size : 100%; }
@@ -255,8 +257,6 @@
 .f-160r   { font-size : 1.6rem; }
 .f-200r   { font-size : 2rem;   }
 .f-300r   { font-size : 3rem;   }
-
-.small    { font-size   : 75%;    }
 
 .bold     { font-weight : bold;   }
 .bold-300 { font-weight : 300;    }
