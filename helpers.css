@@ -1,5 +1,6 @@
 /*****************************/
 /* Modificator Classes       */
+/* Version 1.0               */
 /* Author name : Rim Zabarov */
 /* Company: SIMAI            */
 /* Website: http://simai.ru  */
@@ -191,7 +192,7 @@
 .radius-9   { border-radius : 9px; }
 .radius-10  { border-radius : 10px;}
 
-.circle { border-radius : 1000px; }
+.circle { border-radius : 50%; }
 
 
 /* BORDER */
