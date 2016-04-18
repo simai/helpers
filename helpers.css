@@ -1,14 +1,14 @@
-/*****************************/
-/* Modificator Classes       */
-/* Version 1.03              */
-/* Author name : Rim Zabarov */
-/* Company: SIMAI            */
-/* Website: http://simai.ru  */
-/*****************************/
+/*
+Modificator Classes       
+Version 1.04              
+Author name : Rim Zabarov 
+Company: SIMAI            
+Website: http://simai.ru  
+*/
 
 /* MARGIN */
 
-.margin-none,
+.no-margin,
 .m-0    { margin : 0px;  }
 .m-5    { margin : 5px;  }
 .m-10   { margin : 10px; }
@@ -97,7 +97,7 @@
 
 /* PADDING */
 
-.padding-none,
+.no-padding,
 .p-0    { padding : 0px;  }
 .p-5    { padding : 5px;  }
 .p-10   { padding : 10px; }
@@ -428,10 +428,15 @@
 .invisible { visibility : hidden; }
 
 
-/* VISIBILITY */
+/* DISPLAY */
 
 .block  { display : block;  }
 .inline { display : inline;  }
+
+
+/* SELECT */
+
+.no-select { user-select : none; }
 
 /* EFFECTS */
 
