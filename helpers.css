@@ -432,9 +432,10 @@ Website: http://simai.ru
 
 /* DISPLAY */
 
-.block  { display : block;  }
-.inline { display : inline;  }
-
+.display-block  { display : block; }
+.display-inline { display : inline; }
+.display-table  { display : table; }
+.display-cell   { display : table-cell; }
 
 /* SELECT */
 
