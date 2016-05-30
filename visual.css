@@ -1,6 +1,6 @@
 /*
 Visual Modificator Classes
-Version 1.01
+Version 1.02
 Author name : Rim Zabarov
 Company: SIMAI
 Website: http://simai.ru
@@ -45,23 +45,23 @@ r    - rem;
 
 
 /* MASK */
-.mask-dark-1:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(90deg,rgba(9,9,9,.6) 0,rgba(9,9,9,0) 30%,rgba(9,9,9,0) 0,rgba(9,9,9,.6)); }
+.mask-dark-gradient-top:after { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(180deg,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 30%,rgba(0,0,0,0) 100%); }
 
-.mask-pattern-dot-black:after {content: ''; background: transparent url(images/pattern-dot-black.png) repeat top left;}
-.mask-pattern-dot-opacity-1:after {content: ''; background: transparent url(images/pattern-dot-opacity-1.png) repeat top left;}
-.mask-pattern-dot-opacity-2:after {content: ''; background: transparent url(images/pattern-dot-opacity-2.png) repeat top left;}
+.mask-pattern-dot-black:after {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-dot-black.png') repeat top left !important;}
+.mask-pattern-dot-opacity-1:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-dot-opacity-1.png') repeat top left !important;}
+.mask-pattern-dot-opacity-2:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-dot-opacity-2.png') repeat top left !important;}
 
-.mask-pattern-diagonal-black:after {content: ''; background: transparent url(images/pattern-diagonal-black.png) repeat top left;}
-.mask-pattern-diagonal-opacity-1:after {content: ''; background: transparent url(images/pattern-diagonal-opacity-1.png) repeat top left;}
-.mask-pattern-diagonal-opacity-2:after {content: ''; background: transparent url(images/pattern-diagonal-opacity-2.png) repeat top left;}
+.mask-pattern-diagonal-black:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-diagonal-black.png') repeat top left !important;}
+.mask-pattern-diagonal-opacity-1:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-diagonal-opacity-1.png') repeat top left !important;}
+.mask-pattern-diagonal-opacity-2:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-diagonal-opacity-2.png') repeat top left !important;}
 
-.mask-pattern-hline-black:after {content: ''; background: transparent url(images/pattern-hline-black.png) repeat top left;}
-.mask-pattern-hline-opacity-1:after {content: ''; background: transparent url(images/pattern-hline-opacity-1.png) repeat top left;}
-.mask-pattern-hline-opacity-2:after {content: ''; background: transparent url(images/pattern-hline-opacity-2.png) repeat top left;}
+.mask-pattern-hline-black:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-hline-black.png') repeat top left !important;}
+.mask-pattern-hline-opacity-1:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-hline-opacity-1.png') repeat top left !important;}
+.mask-pattern-hline-opacity-2:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-hline-opacity-2.png') repeat top left !important;}
 
-.mask-pattern-vline-black:after {content: ''; background: transparent url(images/pattern-vline-black.png) repeat top left;}
-.mask-pattern-vline-opacity-1:after {content: ''; background: transparent url(images/pattern-vline-opacity-1.png) repeat top left;}
-.mask-pattern-vline-opacity-2:after {content: ''; background: transparent url(images/pattern-vline-opacity-2.png) repeat top left;}
+.mask-pattern-vline-black:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-vline-black.png') repeat top left !important;}
+.mask-pattern-vline-opacity-1:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-vline-opacity-1.png') repeat top left !important;}
+.mask-pattern-vline-opacity-2:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-vline-opacity-2.png') repeat top left !important;}
 
 /* SHADOW */
 
