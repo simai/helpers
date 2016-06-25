@@ -1,6 +1,6 @@
 /*
 Visual Modificator Classes
-Version 1.02
+Version 1.021
 Author name : Rim Zabarov
 Company: SIMAI
 Website: http://simai.ru
@@ -29,11 +29,11 @@ r    - rem;
 /* BORDER */
 
 .bn   { border        : none !important; }
-.bl   { border-left   : 1px solid #ccc !important; }
-.bt   { border-top    : 1px solid #ccc !important; }
-.br   { border-right  : 1px solid #ccc !important; }
-.bb   { border-bottom : 1px solid #ccc !important; }
-.ba   { border        : 1px solid #ccc !important; }
+.bl   { border-left   : 1px solid #eee !important; }
+.bt   { border-top    : 1px solid #eee !important; }
+.br   { border-right  : 1px solid #eee !important; }
+.bb   { border-bottom : 1px solid #eee !important; }
+.ba   { border        : 1px solid #eee !important; }
 
 /* BACKGROUND */
 
