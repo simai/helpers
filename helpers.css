@@ -1,6 +1,6 @@
 /*
 Main Modificator Classes
-Version 1.1
+Version 1.1.1
 Author name : Rim Zabarov
 Company: SIMAI
 Website: http://simai.ru
@@ -436,7 +436,7 @@ r    - rem;
 
 .small,
 .text-small,
-.f-75p    { font-size : 75% !important;  }
+.f-85p    { font-size : 75% !important;  }
 .f-90p    { font-size : 90% !important;  }
 .f-100p   { font-size : 100% !important; }
 .f-110p   { font-size : 110% !important; }
