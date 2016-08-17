@@ -214,16 +214,40 @@ r    - rem;
 
 /* HEIGHT */
 
-.h-10   { min-height : 10px !important; }
-.h-20   { min-height : 20px !important; }
-.h-30   { min-height : 30px !important; }
-.h-40   { min-height : 40px !important; }
-.h-50   { min-height : 50px !important; }
-.h-60   { min-height : 60px !important; }
-.h-70   { min-height : 70px !important; }
-.h-80   { min-height : 80px !important; }
-.h-90   { min-height : 90px !important; }
-.h-100  { min-height : 100px !important;}
+.h-10   { height : 10px !important; }
+.h-20   { height : 20px !important; }
+.h-30   { height : 30px !important; }
+.h-40   { height : 40px !important; }
+.h-50   { height : 50px !important; }
+.h-60   { height : 60px !important; }
+.h-70   { height : 70px !important; }
+.h-80   { height : 80px !important; }
+.h-90   { height : 90px !important; }
+.h-100  { height : 100px !important;}
+.h-150  { height : 150px !important;}
+.h-200  { height : 200px !important;}
+.h-300  { height : 300px !important;}
+.h-400  { height : 400px !important;}
+.h-500  { height : 500px !important;}
+
+/* MIN-HEIGHT */
+
+.min-h-10   { min-height : 10px !important; }
+.min-h-20   { min-height : 20px !important; }
+.min-h-30   { min-height : 30px !important; }
+.min-h-40   { min-height : 40px !important; }
+.min-h-50   { min-height : 50px !important; }
+.min-h-60   { min-height : 60px !important; }
+.min-h-70   { min-height : 70px !important; }
+.min-h-80   { min-height : 80px !important; }
+.min-h-90   { min-height : 90px !important; }
+.min-h-100  { min-height : 100px !important;}
+.min-h-150  { min-height : 150px !important;}
+.min-h-200  { min-height : 200px !important;}
+.min-h-300  { min-height : 300px !important;}
+.min-h-400  { min-height : 400px !important;}
+.min-h-500  { min-height : 500px !important;}
+
 
 
 /* WIDTH */
@@ -348,6 +372,10 @@ r    - rem;
 .radius-10  { border-radius : 10px  !important;}
 
 .circle { border-radius : 50% !important; }
+
+.border-0,
+.border-none{ border-width: 0px;}
+
 
 
 /* TEXT */
@@ -483,6 +511,10 @@ r    - rem;
 
 .roboto     { font-family : 'Roboto', sans-serif !important; }
 .georgia    { font-family : Georgia, serif !important; }
+
+.color-inherit, 
+a.color-inherit:hover{ color: inherit;}
+
 
 
 /* OPACITY */
