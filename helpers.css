@@ -1,6 +1,6 @@
 /*
 Main Modificator Classes
-Version 1.1.1
+Version 1.1.2
 Author name : Rim Zabarov
 Company: SIMAI
 Website: http://simai.ru
@@ -430,78 +430,78 @@ r    - rem;
 /* from 10 to 20 each value */
 /* from 20 only even; */
 
-.f-10  { font-size : 10px !important; }
-.f-11  { font-size : 11px !important; }
-.f-12  { font-size : 12px !important; }
-.f-13  { font-size : 13px !important; }
-.f-14  { font-size : 14px !important; }
-.f-15  { font-size : 15px !important; }
-.f-16  { font-size : 16px !important; }
-.f-17  { font-size : 17px !important; }
-.f-18  { font-size : 18px !important; }
-.f-19  { font-size : 19px !important; }
-.f-20  { font-size : 20px !important; }
-.f-22  { font-size : 22px !important; }
-.f-24  { font-size : 24px !important; }
-.f-26  { font-size : 26px !important; }
-.f-28  { font-size : 28px !important; }
-.f-30  { font-size : 30px !important; }
-.f-32  { font-size : 32px !important; }
-.f-34  { font-size : 32px !important; }
-.f-36  { font-size : 36px !important; }
-.f-38  { font-size : 38px !important; }
-.f-40  { font-size : 40px !important; }
-.f-42  { font-size : 42px !important; }
-.f-44  { font-size : 44px !important; }
-.f-46  { font-size : 46px !important; }
-.f-48  { font-size : 48px !important; }
-.f-50  { font-size : 50px !important; }
-.f-52  { font-size : 52px !important; }
-.f-54  { font-size : 54px !important; }
-.f-56  { font-size : 56px !important; }
-.f-58  { font-size : 58px !important; }
-.f-60  { font-size : 60px !important; }
+.fs-10  { font-size : 10px !important; }
+.fs-11  { font-size : 11px !important; }
+.fs-12  { font-size : 12px !important; }
+.fs-13  { font-size : 13px !important; }
+.fs-14  { font-size : 14px !important; }
+.fs-15  { font-size : 15px !important; }
+.fs-16  { font-size : 16px !important; }
+.fs-17  { font-size : 17px !important; }
+.fs-18  { font-size : 18px !important; }
+.fs-19  { font-size : 19px !important; }
+.fs-20  { font-size : 20px !important; }
+.fs-22  { font-size : 22px !important; }
+.fs-24  { font-size : 24px !important; }
+.fs-26  { font-size : 26px !important; }
+.fs-28  { font-size : 28px !important; }
+.fs-30  { font-size : 30px !important; }
+.fs-32  { font-size : 32px !important; }
+.fs-34  { font-size : 32px !important; }
+.fs-36  { font-size : 36px !important; }
+.fs-38  { font-size : 38px !important; }
+.fs-40  { font-size : 40px !important; }
+.fs-42  { font-size : 42px !important; }
+.fs-44  { font-size : 44px !important; }
+.fs-46  { font-size : 46px !important; }
+.fs-48  { font-size : 48px !important; }
+.fs-50  { font-size : 50px !important; }
+.fs-52  { font-size : 52px !important; }
+.fs-54  { font-size : 54px !important; }
+.fs-56  { font-size : 56px !important; }
+.fs-58  { font-size : 58px !important; }
+.fs-60  { font-size : 60px !important; }
 
 .small,
 .text-small,
-.f-85p    { font-size : 75% !important;  }
-.f-90p    { font-size : 90% !important;  }
-.f-100p   { font-size : 100% !important; }
-.f-110p   { font-size : 110% !important; }
-.f-120p   { font-size : 120% !important; }
-.f-130p   { font-size : 130% !important; }
-.f-140p   { font-size : 140% !important; }
-.f-150p   { font-size : 150% !important; }
-.f-160p   { font-size : 160% !important; }
-.f-200p   { font-size : 200% !important; }
-.f-300p   { font-size : 300% !important; }
-.f-400p   { font-size : 400% !important; }
-.f-500p   { font-size : 500% !important; }
-.f-600p   { font-size : 600% !important; }
-.f-700p   { font-size : 700% !important; }
-.f-800p   { font-size : 800% !important; }
-.f-900p   { font-size : 900% !important; }
+.fs-85p    { font-size : 75% !important;  }
+.fs-90p    { font-size : 90% !important;  }
+.fs-100p   { font-size : 100% !important; }
+.fs-110p   { font-size : 110% !important; }
+.fs-120p   { font-size : 120% !important; }
+.fs-130p   { font-size : 130% !important; }
+.fs-140p   { font-size : 140% !important; }
+.fs-150p   { font-size : 150% !important; }
+.fs-160p   { font-size : 160% !important; }
+.fs-200p   { font-size : 200% !important; }
+.fs-300p   { font-size : 300% !important; }
+.fs-400p   { font-size : 400% !important; }
+.fs-500p   { font-size : 500% !important; }
+.fs-600p   { font-size : 600% !important; }
+.fs-700p   { font-size : 700% !important; }
+.fs-800p   { font-size : 800% !important; }
+.fs-900p   { font-size : 900% !important; }
 
-.f-75r    { font-size : 0.75rem !important;}
-.f-90r    { font-size : 0.9rem !important; }
-.f-100r   { font-size : 1rem !important;   }
-.f-110r   { font-size : 1.1rem !important; }
-.f-120r   { font-size : 1.2rem !important; }
-.f-130r   { font-size : 1.3rem !important; }
-.f-140r   { font-size : 1.4rem !important; }
-.f-150r   { font-size : 1.5rem !important; }
-.f-160r   { font-size : 1.6rem !important; }
-.f-200r   { font-size : 2rem !important;   }
-.f-300r   { font-size : 3rem !important;   }
+.fs-75r    { font-size : 0.75rem !important;}
+.fs-90r    { font-size : 0.9rem !important; }
+.fs-100r   { font-size : 1rem !important;   }
+.fs-110r   { font-size : 1.1rem !important; }
+.fs-120r   { font-size : 1.2rem !important; }
+.fs-130r   { font-size : 1.3rem !important; }
+.fs-140r   { font-size : 1.4rem !important; }
+.fs-150r   { font-size : 1.5rem !important; }
+.fs-160r   { font-size : 1.6rem !important; }
+.fs-200r   { font-size : 2rem !important;   }
+.fs-300r   { font-size : 3rem !important;   }
 
 .bold   { font-weight : bold !important;    }
 .light  { font-weight : lighter !important; }
-.weight-100 { font-weight : 300 !important; }
-.weight-300 { font-weight : 300 !important; }
-.weight-400 { font-weight : 400 !important; }
-.weight-500 { font-weight : 500 !important; }
-.weight-700 { font-weight : 700 !important; }
-.weight-900 { font-weight : 900 !important; }
+.fw-100 { font-weight : 300 !important; }
+.fw-300 { font-weight : 300 !important; }
+.fw-400 { font-weight : 400 !important; }
+.fw-500 { font-weight : 500 !important; }
+.fw-700 { font-weight : 700 !important; }
+.fw-900 { font-weight : 900 !important; }
 
 .italic   {font-style   : italic !important; }
 
